@@ -1,0 +1,64 @@
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #0e2058; /* Dark Blue */
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+  /* Warning: Image repeats if height exceeds a threshold */
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/* Header */
+h1 {
+  font-size: 60px;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  color: #0e2058; /* Dark Blue */
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color : #B8860B; /* Dark GoldenRod */
+  border: 5px solid black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFF0; /* Ivory */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FFFFF0; /* Ivory */
+  color: #B8860B; /* Dark GoldenRod */
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #FFFFF0; /* Ivory */
+  border: 5px solid black;
+  color: #0e2058; /* Dark Blue */
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #FFFFF0; /* Ivory */
+  margin-top: 20px;
+  border: 5px solid black;
+}

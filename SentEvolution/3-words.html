@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"rel="stylesheet">
+  <title>3 Words</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+   <div class="header">
+       <h1 id="w3"></h1>
+   </div>
+ 
+   <div class="topnav">
+       <a href="home.html">Home</a>
+       <a href="5-words.html">5-Words</a>
+       <a href="4-words.html">4-Words</a>
+       <a href="3-words.html">3-Words</a>
+       <a href="2-words.html">2-Words</a>
+       <a href="1-words.html">1-Word</a>
+   </div>
+ 
+   <div class="card">
+       <form onSubmit="update(3, event);listAll(3,event);">
+           Change
+           <input type="text" placeholder="Type a word..." id="old_word">
+           to
+           <input type="text" placeholder="Type a word..." id="new_word">
+           <input type="submit" value="Submit">
+       </form>
+   </div>
+  <div class="card" id="list"> </div>
+ 
+   <div class="footer">
+       <h2>~HackTheHeights4~</h2>
+   </div>
+ 
+   <script src="script.js"></script>
+  <script>document.getElementById("w3").innerHTML = three_words[three_words.length - 1];</script>
+ 
+</body>
